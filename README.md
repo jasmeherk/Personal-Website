@@ -1,6 +1,6 @@
 # Personal-Website
 
-This is the repository which contains the code comprising my personal website. this was created using 
+This is the repository which contains the code comprising my personal website. This website was created using 
 <ul> 
   <li> Flask (Python)</li>
   <li>HTML</li>
