@@ -1,0 +1,64 @@
+
+<html>
+<head>
+    <meta charset = "UTF-8">
+    <title>Jasmeher's Homepage</title>
+    <link rel = "stylesheet"
+      type = "text/css"
+      href = "static/styles/homeStyle.css" />
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      <script src="static/typewrite.js"></script>
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    </head>
+    <body>
+      <div class="container">
+      <div class="jumbotron text-left">
+        <div class="row">
+          <div class="col-sm-4 col-md-4 col-lg-4">
+            <img src= {{ url_for('static', filename = "IMG_7776.jpg") }} id ="home_img" alt="Jasmeher" style="width:60%">
+            </div>
+            <div class="col-sm-8 col-md-8 col-lg-8 text-left">
+        <h1 class="typewrite" data-period="2000" data-type='[ "Hi, I&#39;m Jasmeher &#9995;", "Welcome to my page!"]'></h1>
+      </div>
+      </div>
+    </div>
+    <div class ="row" style="padding-bottom: 20px">
+      <div class = "col">
+        <h4>
+          Although studying a mathematically oriented field , statistics has exposed me to utilising software for problem solving,
+            sparking my interest in software development which has enabled me to build software solutions for everyday issues.
+            </h4>
+    </div>
+    <div class ="col">
+      <img src= {{ url_for('static', filename = "code.png") }}  alt="aboutMe" style="width:100%">
+    </div>
+  </div>
+
+    <div class = row>
+          <div class = "col">
+            <div class="w3-card-4 w3-hover-shadow" style="width:60%, align:center">
+              <img src={{ url_for('static', filename = "notepad.jpg") }} alt="Code" style="width:100%">
+              <div class="w3-container w3-center">
+                <a href="https://drive.google.com/file/d/1s50zGT58obbujp48BSw-SA3iRefJpUKl/view?usp=sharing">Resume</a>
+              </div>
+            </div>
+    </div>
+    <div class = "col">
+      <div class="w3-card-4 w3-hover-shadow" style="width:60%, align:center">
+        <img src={{ url_for('static', filename = "codeScreen.jpg") }} alt="Code" style="width:100%">
+        <div class="w3-container w3-center">
+          <a href="https://github.com/jasmeherk">Projects</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    </div>
+      </body>
+
+    </body>
+    </html>

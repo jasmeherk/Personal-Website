@@ -1,0 +1,18 @@
+ body {
+  text-align: center;
+  color:black;
+  background-color:darkslateblue;
+}
+
+.typewrite {
+  font-family: "Lucida Console", Courier, monospace;
+  color: black;
+}
+#home_img{
+  border-radius: 50%;
+  width: 100%;
+  height: auto;
+}
+h4{
+  font-family: "Lucida Console", Courier, monospace;
+}
